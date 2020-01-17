@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.grid{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-areas:
+    "a1 a1 a1 a2 a2 a2 a2"
+    "a3 a3 a3 a4_1 a4_2 a4_2 a4_3"
+    "a3 a3 a3 a5 a5 a5_1 a5_1"
+    "a6 a6 a6_1 a6_1 a7_1 a7_1 a7"
+    "a8 a9 a9 a9 a10 a10 a10";
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr 0.5fr 1fr;
+    grid-gap: 8px ;
+    background-color: white;
+    height: 550px;
+}
+
+div{
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+    .a1{
+        grid-area: a1;
+        background-color: #afdfbf;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .a2{
+        grid-area: a2;
+        background-color: #68c5b8;
+        text-align: center;
+        line-height: 100px;
+    }
+    .a3{
+        grid-area: a3;
+        background-color: #fa688a;
+        text-align: center;
+        line-height: 100px;
+    }
+    .a4_1{
+        grid-area: a4_1;
+        background-color: #8a95ef;
+        text-align: center;
+        line-height: 100px;
+    }
+    .a4_2{
+        grid-area: a4_2;
+        background-color: #8a95ef;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .a4_3{
+        grid-area: a4_3;
+        background-color: #8a95ef;
+        text-align: center;
+        line-height: 100px;
+    }
+    .a5{
+        grid-area: a5;
+        background-color: #ffc569;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .a5_1{
+        grid-area: a5_1;
+        background-color: #ffc569;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .a6{
+        grid-area: a6;
+        background-color: #588cc7;
+        text-align: center;
+        line-height: 100px;
+    }
+    .a6_1{
+        grid-area: a6_1;
+        background-color: #588cc7;
+        text-align: center;
+        line-height: 100px;
+    }
+
+
+    .a7_1{
+        grid-area: a7_1;
+        background-color: #588cc7;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .a7{
+        grid-area: a7;
+        background-color: #588cc7;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    .a8{
+        grid-area: a8;
+        background-color: #6652ad;
+        text-align: center;
+        line-height: 100px;
+    }
+    .a9{
+        grid-area: a9;
+        background-color: #6652ad;
+        text-align: center;
+        line-height: 100px;
+    }
+    .a10{
+        grid-area: a10;
+        background-color: #6652ad;
+        text-align: center;
+        line-height: 100px;
+    }
